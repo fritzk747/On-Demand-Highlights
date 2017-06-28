@@ -1,2 +1,4 @@
 # On-Demand-Highlights
 Watch select player highlights
+
+This program uses the VLCJ framework (http://caprica.github.io/vlcj/) to create a media player using VLC (http://www.videolan.org/vlc/index.html). The purpose is to watch select highlights from different games such as all goals scored by a particular player or all saves made by a particular goalie for example. This program assumes that a database exists with timestamped play-by-play data. Also, actual video files corresponding to the play-by-play data are needed and additional timestamps for when the games begin during each video file. I used this program to watch highlights from the English Premier League using a database of play-by-play data that I created from scrapping websites and video files that I recorded using the repository VideoRecorder.
